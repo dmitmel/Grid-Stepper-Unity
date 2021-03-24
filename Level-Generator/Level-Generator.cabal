@@ -17,7 +17,8 @@ cabal-version:       >=1.10
 
 executable Level-Generator
   main-is:             Main.hs
-  -- other-modules:
+  other-modules:       LevelGenerator.Generator,
+                       LevelGenerator.Level
   -- other-extensions:
   build-depends:       base >=4.9 && <4.10,
                        containers,
@@ -29,7 +30,8 @@ executable Level-Generator
 
 executable Level-Generator-Visual
   main-is:             LevelGenerator/VisualGenerator.hs
-  -- other-modules:
+  other-modules:       LevelGenerator.Generator,
+                       LevelGenerator.Level
   -- other-extensions:
   build-depends:       base >=4.9 && <4.10,
                        containers,
