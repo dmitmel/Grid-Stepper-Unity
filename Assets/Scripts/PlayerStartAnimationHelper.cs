@@ -17,11 +17,13 @@
 using UnityEngine;
 
 namespace GridStepper {
-    public class StartAnimationHelper : MonoBehaviour {
-        public Animator startFlagAnimator;
+    public class PlayerStartAnimationHelper : MonoBehaviour {
+        public Transform startFlag;
+        public int startFlagLiftAnimationSteps;
 
         public void LiftStartFlag() {
-            startFlagAnimator.enabled = true;
+            startFlag.GetComponent<MeshRenderer>().enabled = true;
+            StartCoroutine(startFlag.TranslateAnimation(startFlagLiftAnimationSteps, startFlag.position + Vector3.up));
         }
     }
 }

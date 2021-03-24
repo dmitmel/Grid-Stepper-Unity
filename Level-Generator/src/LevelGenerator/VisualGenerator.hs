@@ -11,10 +11,10 @@ import           System.Random            (StdGen, getStdGen, mkStdGen, randomR,
 
 main :: IO ()
 main = runProc $ def { procSetup = setup
-                                  , procDraw = draw
-                                  , procKeyPressed = keyPressed
-                                  , procUpdate = update
-                                  }
+                     , procDraw = draw
+                     , procKeyPressed = keyPressed
+                     , procUpdate = update
+                     }
 
 type Path = ((Int, Int), (Int, Int))
 

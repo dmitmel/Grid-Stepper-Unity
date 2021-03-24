@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 44b0c2a5b86f14f0eaed8de1ed7a5b23
-timeCreated: 1475951918
+guid: 2504fda1a4b3740c0817560c78c11e2d
+timeCreated: 1481374271
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -10,14 +10,13 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube
-    4300002: StartF_ag
-    4300004: StartFlag
+    4300002: I
     7400000: Default Take
     9500000: //RootNode
   materials:
-    importMaterials: 1
-    materialName: 1
-    materialSearch: 0
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
